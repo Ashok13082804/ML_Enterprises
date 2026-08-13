@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# Node.js
+node_modules/
+.next/
+out/
+.nuxt/
+dist/
+.cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# Docker
+docker-data/
+postgres-data/
+redis-data/
+minio-data/
+mlflow-data/
+chromadb-data/
+
+# ML Artifacts
+models/saved/
+datasets/uploaded/
+reports/generated/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# MLflow
+mlruns/
+
+# DVC
+.dvc/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Alembic
+alembic/versions/*.pyc
